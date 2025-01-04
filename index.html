@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chips Çeviri 2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chips Çeviri 2.0</h1>
+        
+        <div class="input-section">
+            <h2>Normal Türkçe</h2>
+            <textarea id="inputText" placeholder="Çevirmek istediğiniz metni buraya yazın..."></textarea>
+        </div>
+
+        <div class="button-group">
+            <button id="switchBtn" class="switch-btn">
+                <i class="fas fa-exchange-alt"></i> Yön Değiştir
+            </button>
+            <button id="translateBtn" class="translate-btn">Çevir</button>
+        </div>
+
+        <div class="output-section">
+            <h2>Chips Türkçesi</h2>
+            <textarea id="outputText" readonly></textarea>
+        </div>
+
+        <div class="pronunciation-section">
+            <h2>Okunuş</h2>
+            <textarea id="pronunciationText" readonly></textarea>
+        </div>
+
+        <div class="footer">
+            <p>Yapımcı: <a href="https://github.com/bylordwz">bylordwz</a></p>
+            <p>Versiyon: 2.0</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
